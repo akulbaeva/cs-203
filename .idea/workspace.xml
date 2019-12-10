@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f8c837e-540b-4bd9-83c0-8d212405e4d0" name="Default Changelist" comment="" />
+    <list default="true" id="4f8c837e-540b-4bd9-83c0-8d212405e4d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/gryffindor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/hufflepuff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/ravenclaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/slytherin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/beginner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/classes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/gryffindor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/hufflepuff.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/ravenclaw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/review.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/slytherin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cs-203.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs-203.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,11 +50,21 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/index" />
+      <recent name="$PROJECT_DIR$/style" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +89,17 @@
       <option name="presentableId" value="Default" />
       <updated>1574314878036</updated>
       <workItem from="1574314880417" duration="688000" />
+      <workItem from="1574315618162" duration="384000" />
+      <workItem from="1574429087633" duration="9000" />
+      <workItem from="1575358394390" duration="9424000" />
+      <workItem from="1575463257529" duration="7000" />
+      <workItem from="1575529272244" duration="24000" />
+      <workItem from="1575531354280" duration="222000" />
+      <workItem from="1575634011882" duration="1835000" />
+      <workItem from="1575692637067" duration="12303000" />
+      <workItem from="1575870702447" duration="349000" />
+      <workItem from="1575872725860" duration="20599000" />
+      <workItem from="1575944853675" duration="29863000" />
     </task>
     <servers />
   </component>
@@ -69,7 +111,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

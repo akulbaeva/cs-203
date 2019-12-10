@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Harry Potter</title>
+    <title>Feedback</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/classes.css">
-    <link rel="stylesheet" href="style/beginner.css">
+    <link rel="stylesheet" href="../style/review.css">
+    <link rel="stylesheet" href="../style/beginner.css">
 
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|MedievalSharp&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css">
 
 </head>
@@ -34,37 +35,37 @@
                         <span>General</span>
                     </li>
                     <li >
-                        <a href="index.html">
+                        <a href="../index.html">
                             <i class="fa fa-home"></i>
                             <span>Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="index/slytherin.html">
+                        <a href="slytherin.html">
                             <i class="fa fa-star"></i>
                             <span>Slytherin</span>
                         </a>
                     </li>
                     <li>
-                        <a href="index/gryffindor.html">
+                        <a href="gryffindor.html">
                             <i class="fa fa-crosshairs"></i>
                             <span>Gryffindor</span>
                         </a>
                     </li>
                     <li>
-                        <a href="index/ravenclaw.html">
+                        <a href="ravenclaw.html">
                             <i class="far fa-plus"></i>
                             <span>Ravenclaw</span>
                         </a>
                     </li>
                     <li>
-                        <a href="index/hufflepuff.html">
+                        <a href="hufflepuff.html">
                             <i class="fa fa-asterisk"></i>
                             <span>Hufflepuff</span>
                         </a>
                     </li>
                     <li>
-                        <a href="index/review.html">
+                        <a href="review.html">
                             <i class="fa fa-box"></i>
                             <span>Feedback</span>
                         </a>
@@ -74,22 +75,44 @@
         </div>
     </nav>
     <main class="page-content">
-        <div class = "HP" > Harry Potter</div>
-        <div class = "body">
-            <div class="txt">
-                The Harry Potter logo first used for the American edition of the novel series (and some other editions worldwide), and then the film series. <br></br>
-                The Philosopher's Stone (1997)<br></br>
-                The Chamber of Secrets (1998)<br></br>
-                The Prisoner of Azkaban (1999)<br></br>
-                The Goblet of Fire (2000)<br></br>
-                The Order of the Phoenix (2003)<br></br>
-                The Half-Blood Prince (2005)<br></br>
-                The Deathly Hallows (2007)<br></br>
-                Author	J. K. Rowling<br></br>
-                Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).
-                <br></br>
-                Since the release of the first novel, Harry Potter and the Philosopher's Stone, on 26 June 1997, the books have found immense popularity, critical acclaim and commercial success worldwide. They have attracted a wide adult audience as well as younger readers and are often considered cornerstones of modern young adult literature.[2] As of February 2018, the books have sold more than 500 million copies worldwide, making them the best-selling book series in history, and have been translated into eighty languages.[3] The last four books consecutively set records as the fastest-selling books in history, with the final instalment selling roughly eleven million copies in the United States within twenty-four hours of its release
-            </div>
+        <div class="form-box">
+            <h1 style="margin-bottom: 50px">Feedback Form</h1>
+            <form action="https://api.formbucket.com/f/c2K3QTQ" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" id="name" type="text" name="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="Email">
+                    <small id="emailHelp" class="form-text text-muted">We will never share your e-mail with someone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message"></textarea>
+                </div>
+                <div class="cont">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Submit
+                    </button>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Modal</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    Thank you for your feedback
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
         <footer>
             <div class="icons">
@@ -101,6 +124,6 @@
     </main>
 </div>
 </body>
-<script src="js/index.js"></script>
+<script src="../js/index.js"></script>
 </html>
 
