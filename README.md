@@ -12,10 +12,10 @@ https://akulbaeva.github.io/cs-203/
 
 # Screenshots:
 
-![Alt text](https://i.imgur.com/rIrFoQ2.png)
-![Alt text](https://i.imgur.com/UwcWrbs.png)
-![Alt text](https://i.imgur.com/wk0jpHG.png)
-![Alt text](https://i.imgur.com/Pt9SVHp.png)
-![Alt text](https://i.imgur.com/67HRnHi.png)
-![Alt text](https://i.imgur.com/H9Pj6d5.png)
+![Alt text](https://i.imgur.com/H3REB8W.png)
+![Alt text](https://i.imgur.com/KZMW8Si.png)
+![Alt text](https://i.imgur.com/GjyQtt4.png)
+![Alt text](https://i.imgur.com/ap1evJc.png)
+![Alt text](https://i.imgur.com/lVIxLnp.png)
+![Alt text](https://i.imgur.com/i4NH3dA.png)
 
