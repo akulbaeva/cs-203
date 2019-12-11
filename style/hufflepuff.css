@@ -30,7 +30,7 @@ main{
 .slyth{
     font-size: 36px;
     font-weight: bold;
-    color: #fff;
+    color: #000000;
     text-align: center;
     margin: auto;
 }
@@ -45,7 +45,7 @@ p {
     margin-inline-end: 0px;
 }
 .WikiaArticle h2 {
-    border-bottom: solid 1px #ffff;
+    border-bottom: solid 1px #0000;
     font-size: 25px;
     margin-top: 50px;
     overflow: hidden;
@@ -59,11 +59,11 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
 
 .page-header__separator {
-    background-color: #cccccc;
+    background-color: #000000;
     border: 0;
     height: 2px;
     margin-bottom: 18px;
@@ -82,11 +82,11 @@ h2 {
     margin: 0 0 16px 16px;
 }
 .caption{
-    color:white;
+    color:#000000;
     text-align: center;
 }
 .mw-headline{
-    color: white;
+    color: #000000;
     margin-left: 50px;
 }
 span{
@@ -98,7 +98,7 @@ span{
     vertical-align: baseline;
 }
 .txt{
-    color: #fff;
+    color: #000;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -120,7 +120,7 @@ span{
     height: 50px;
     width: 50px;
     border-radius: 25px;
-    color: #0000;!important;
+    color: #000000;!important;
     font-size: 1.9em;
 }
 footer{
