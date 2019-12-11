@@ -42,3 +42,9 @@ footer{
     background-color: #3a3f48;
     height: 90px;
 }
+@media screen and (max-width : 1025px) {
+    .img-fluid{
+        margin-top: -80000000000000000000px;
+    }
+
+}

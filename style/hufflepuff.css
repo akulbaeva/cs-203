@@ -1,5 +1,7 @@
 table, th, td {
     border: 2px solid #cccccc;
+    cellspacing:0;
+    cellpadding:4;
 }
 main{
     background-image: url("../img/huffelpuff.jpg");
@@ -127,4 +129,10 @@ footer{
     /*margin-top: 150px;*/
     background-color: #3a3f48;
     height: 90px;
+}
+@media screen and (max-width : 1025px) {
+    .img-fluid{
+        margin-top: -80000000000000000000px;
+    }
+
 }
