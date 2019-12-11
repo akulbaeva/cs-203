@@ -28,11 +28,9 @@ main{
     text-align: center;
 }
 .icons{
-    margin-top: 330px;
-    /*margin-left: 30%;*/
+    /*margin-top: 330px;*/
+    margin-left: 50%;
     display: inline-flex;
-
-
 }
 .ro{
     margin: 20px;
@@ -41,6 +39,12 @@ main{
     border-radius: 25px;
     color: #0000;!important;
     font-size: 1.9em;
+}
+footer{
+    /*margin-top: 150px;*/
+    background-color: #3a3f48;
+    height: 90px;
+
 }
 
 

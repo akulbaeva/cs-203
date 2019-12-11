@@ -110,8 +110,8 @@ span{
     margin-top: 900px;
 }
 .icons{
-    margin-top: 330px;
-    /*margin-left: 30%;*/
+    /*margin-top: 330px;*/
+    margin-left: 50%;
     display: inline-flex;
 
 
@@ -124,3 +124,9 @@ span{
     color: #0000;!important;
     font-size: 1.9em;
 }
+footer{
+    /*margin-top: 150px;*/
+    background-color: #3a3f48;
+    height: 90px;
+}
+
